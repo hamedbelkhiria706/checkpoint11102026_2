@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact & Reservations - Delicious Bites</title>
+</head>
+<body>
+  <h1>Contact Delicious Bites</h1>
+  <p>We would love to host you! Get in touch for reservations or inquiries.</p>
+
+  <h2>Restaurant Details</h2>
+  <ul>
+    <li><strong>Address:</strong> 123 Gourmet Avenue, Culinary District, Food City</li>
+    <li><strong>Phone:</strong> (555) 123-4567</li>
+    <li><strong>Email:</strong> reservations@deliciousbites.com</li>
+    <li><strong>Hours:</strong> Tuesday – Sunday, 12:00 PM – 10:00 PM (Closed Mondays)</li>
+  </ul>
+
+  <h2>Make a Reservation</h2>
+  <form action="#" method="post">
+    <div>
+      <label for="name">Full Name:</label><br>
+      <input type="text" id="name" name="name" required>
+    </div>
+    <br>
+    <div>
+      <label for="email">Email Address:</label><br>
+      <input type="email" id="email" name="email" required>
+    </div>
+    <br>
+    <div>
+      <label for="date">Reservation Date:</label><br>
+      <input type="date" id="date" name="date" required>
+    </div>
+    <br>
+    <div>
+      <label for="guests">Number of Guests:</label><br>
+      <input type="number" id="guests" name="guests" min="1" max="20" required>
+    </div>
+    <br>
+    <div>
+      <label for="notes">Special Requests / Dietary Restrictions:</label><br>
+      <textarea id="notes" name="notes" rows="4" cols="40"></textarea>
+    </div>
+    <br>
+    <button type="submit">Submit Reservation</button>
+  </form>
+
+  <p><a href="index.html">← Back to Menu</a></p>
+</body>
+</html>
+
